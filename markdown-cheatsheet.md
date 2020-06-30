@@ -31,4 +31,8 @@ Use enter to break and double space to enter in a new line
 ```
 
     this is a code block  
-    to do  this use tab in beginning
+    to do  this use tab in beginning  
+
+    
+`this is a coding block`
+
