@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_4.11</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <div>
+        <label for="fn">First Name:</label>
+        <input  type="text" placeholder="John" id="fn" required>
+        <label for="ln">Last Name:</label>
+        <input  type="text" placeholder="Smith" id="ln" required>
+        </div>
+        <div>
+        <label for="g">Male</label>
+        <input  type="radio"id="g" name="g" value="m">
+        <label for="g">Female</label>
+        <input  type="radio"id="g" name="g" value="f">
+        <label for="g">Other</label>
+        <input  type="radio"id="g" name="g" value="o">
+        </div>
+        <label for="Email">Email</label>
+        <input  type="email" placeholder="xyz@abc.com" id="Email" required>
+        <label for="pwd">Password</label>
+        <input  type="password"id="pwd" required maxlength="9" minlength="5" placeholder="your passwprd"><br>
+        Birthday:
+        <select name="month" id="m">
+            <option value="m">Month</option>
+            <option value="Jan">Jan</option>
+            <option value="Feb">Feb</option>
+            <option value="Mar">Mar</option>
+         </select>
+         <select name="Day" id="d">
+             <option value="d">day</option>
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+          </select>
+          <select name="year" id="y">
+              <option value="y">year</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+              <option value="2003">2003</option>
+           </select>
+
+        <br>
+    I agree to terms and condition 
+    <input type="checkbox">
+    <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
