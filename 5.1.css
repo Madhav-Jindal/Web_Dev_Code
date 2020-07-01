@@ -1,0 +1,22 @@
+h1 {
+    color: lightcoral;
+}
+/* border:
+width
+color 
+style
+*/
+h6 {
+    color: rgb(37, 117, 131);
+    /* background-color: darkslateblue;
+    border:1px solid rgb(0, 0, 0); */
+}
+li{
+    color: #225781;
+}
+/* body{
+    /* background-image: url(https://promptinnov.com/wp-content/uploads/2016/03/techno-bg-768x432.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
