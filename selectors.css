@@ -10,21 +10,26 @@ body{
 /* Make the <h1> element #9b59b6*/
 h1{
     color: #9b59b6;
+    font-family: Roboto;
 }
 
 /* Make all <h2> elements orange */
 h2{
     color:orange;
+    font-family: Roboto;
 }
 
 /* Make all <li> elements blue(pick your own hexadecimal blue)*/ 
 
 li{
-    color:#3355ff
+    color:#3355ff;
+    font-family: Roboto;
 }
 /*Change the background on every paragraph to be yellow*/
 p{
     background: yellow;
+    font-family: Raleway;
+    font-size: xx-small;
 }
 
 /*Make all inputs have a 3px red border*/
@@ -35,6 +40,7 @@ input{
 /* Give everything with the class 'hello' a white background*/
 .hello{
     background: white;
+    font-family: Roboto;
 }
 
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
