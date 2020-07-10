@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.css">
     <title>Bootstrap basics</title>
+    <style>
+        .pink{
+            background-color: burlywood;
+        }
+        .orange{
+            background-color: darkblue;
+            border: 1px dashed red;
+        }
+    </style>
 </head>
 <body>
 <!-- CODE FOR NAV BAR -->
@@ -62,8 +71,20 @@
           </form>       
 
     </div>
-
-
+<!-- GRID SYSTEM -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12 pink">TOUR DATE!!
+            <div class="row">
+                <div class="col-lg-6 orange">HALVES</div>
+                <div class="col-lg-6 orange">HALVES</div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 pink">TOUR DATE!!</div>
+        <div class="col-md-3 col-sm-6 col-xs-12 pink">TOUR DATE!!</div>
+        <div class="col-md-3 col-sm-6 col-xs-12 pink">TOUR DATE!!</div>
+    </div>
+</div>
 <script
   src="https://code.jquery.com/jquery-3.5.1.js"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
